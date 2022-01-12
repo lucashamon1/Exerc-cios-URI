@@ -1,0 +1,7 @@
+id = int(input())
+ano = int(id / 365)
+mes = int((id % 365) / 30)
+dia = int (id - ((ano * 365) + (mes * 30)))
+print ('{} ano(s)' .format(ano)) 
+print ('{} mes(es)' .format(mes))
+print ('{} dia(s)' .format(dia))
