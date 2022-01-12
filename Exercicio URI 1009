@@ -1,0 +1,5 @@
+nome=str(input())
+si=float(input())
+vend=float(input())
+sf=float(si + ((vend * 15) / 100))
+print('TOTAL = R$ {0:.2f}'.format(sf))
