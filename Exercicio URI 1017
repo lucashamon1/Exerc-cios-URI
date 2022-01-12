@@ -1,0 +1,5 @@
+tempo = int(input())
+velmed = int(input())
+dist = int(tempo * velmed)
+gasto = float(dist / 12)
+print('{0:.3f}' .format(gasto))
