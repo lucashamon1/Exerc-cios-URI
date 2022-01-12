@@ -1,0 +1,11 @@
+x = 1 
+while x != 0:
+    if x >= 2:
+        susp = input().split()
+        x = len(susp)
+        susp = [int(val) for val in susp]
+        lista = sorted(susp)
+        for i in range (0,x):
+            if susp[i] == lista[x-2]:
+                print (i+1)
+    x=int(input())
