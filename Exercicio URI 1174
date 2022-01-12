@@ -1,0 +1,6 @@
+A = []
+for i in range (100):
+    V = float(input())
+    A.append(V)
+    if V <= 10:
+        print('A[{}] = {}' .format(i, V))
