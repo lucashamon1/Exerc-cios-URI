@@ -1,0 +1,6 @@
+fun = int(input())
+horas = int(input())
+salh = float(input())
+sal = float(horas * salh)
+print('NUMBER = {}' .format(fun))
+print('SALARY = U$ {0:.2f}' .format(sal))
